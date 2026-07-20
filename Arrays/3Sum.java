@@ -20,6 +20,6 @@ class Solution {
                 else r--;
             }
         }
-        return ans
+        return ans;
     }
 }
