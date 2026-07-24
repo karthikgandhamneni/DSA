@@ -1,3 +1,6 @@
+// 1903. Largest Odd Number in String
+
+
 class Solution {
     public String largestOddNumber(String num) {
         int ind=-1;
@@ -8,7 +11,7 @@ class Solution {
             }
         }
         int i=0;
-        while(i>ind && num.charAt(i)=='0'){
+        while(i<ind && num.charAt(i)=='0'){
             i++;
         }
         return num.substring(i,ind+1);
